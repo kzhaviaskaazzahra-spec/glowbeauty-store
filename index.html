@@ -8,35 +8,127 @@
 <body>
 
 <header>
-<h2>Glow Beauty Store</h2>
-<div class="header-right">
-<span class="user-name">👤 <span id="userName"></span></span>
-<button class="logout-btn" onclick="logout()">Logout</button>
-<div class="cart-icon" onclick="keKeranjang()">🛒 <span id="cartCount">0</span></div>
-</div>
+  <h2>Glow Beauty Store</h2>
+  <div class="header-right">
+    <span class="user-name">👤 <span id="userName"></span></span>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+    <div class="cart-icon" onclick="keKeranjang()">🛒 <span id="cartCount">0</span></div>
+  </div>
 </header>
 
 <div class="produk">
 
-<div class="card"><img src="images/cushion.jpg"><span class="badge">Best Seller</span><h3>Cushion</h3><div class="rating">★★★★★</div><p>Rp 180.000</p><div class="btn-group"><button onclick="tambahKeranjang('Cushion',180000)">Tambah</button><button class="buy" onclick="beliSekarang('Cushion',180000)">Beli</button></div></div>
+  <div class="card">
+    <img src="cushion.jpg" alt="Cushion">
+    <span class="badge">Best Seller</span>
+    <h3>Cushion</h3>
+    <div class="rating">★★★★★</div>
+    <p>Rp 180.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Cushion',180000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Cushion',180000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/lipcream.jpg"><h3>Lip Cream</h3><div class="rating">★★★★☆</div><p>Rp 90.000</p><div class="btn-group"><button onclick="tambahKeranjang('Lip Cream',90000)">Tambah</button><button class="buy" onclick="beliSekarang('Lip Cream',90000)">Beli</button></div></div>
+  <div class="card">
+    <img src="lipcream.jpg" alt="Lip Cream">
+    <h3>Lip Cream</h3>
+    <div class="rating">★★★★☆</div>
+    <p>Rp 90.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Lip Cream',90000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Lip Cream',90000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/serum.jpg"><span class="badge">Best Seller</span><h3>Serum</h3><div class="rating">★★★★★</div><p>Rp 220.000</p><div class="btn-group"><button onclick="tambahKeranjang('Serum',220000)">Tambah</button><button class="buy" onclick="beliSekarang('Serum',220000)">Beli</button></div></div>
+  <div class="card">
+    <img src="serum.jpg" alt="Serum">
+    <span class="badge">Best Seller</span>
+    <h3>Serum</h3>
+    <div class="rating">★★★★★</div>
+    <p>Rp 220.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Serum',220000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Serum',220000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/facialwash.jpg"><h3>Facial Wash</h3><div class="rating">★★★★☆</div><p>Rp 75.000</p><div class="btn-group"><button onclick="tambahKeranjang('Facial Wash',75000)">Tambah</button><button class="buy" onclick="beliSekarang('Facial Wash',75000)">Beli</button></div></div>
+  <div class="card">
+    <img src="facialwash.jpg" alt="Facial Wash">
+    <h3>Facial Wash</h3>
+    <div class="rating">★★★★☆</div>
+    <p>Rp 75.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Facial Wash',75000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Facial Wash',75000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/toner.jpg"><h3>Toner</h3><div class="rating">★★★★☆</div><p>Rp 85.000</p><div class="btn-group"><button onclick="tambahKeranjang('Toner',85000)">Tambah</button><button class="buy" onclick="beliSekarang('Toner',85000)">Beli</button></div></div>
+  <div class="card">
+    <img src="toner.jpg" alt="Toner">
+    <h3>Toner</h3>
+    <div class="rating">★★★★☆</div>
+    <p>Rp 85.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Toner',85000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Toner',85000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/moisturizer.jpg"><h3>Moisturizer</h3><div class="rating">★★★★★</div><p>Rp 130.000</p><div class="btn-group"><button onclick="tambahKeranjang('Moisturizer',130000)">Tambah</button><button class="buy" onclick="beliSekarang('Moisturizer',130000)">Beli</button></div></div>
+  <div class="card">
+    <img src="moisturizer.jpg" alt="Moisturizer">
+    <h3>Moisturizer</h3>
+    <div class="rating">★★★★★</div>
+    <p>Rp 130.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Moisturizer',130000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Moisturizer',130000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/sunscreen.jpg"><h3>Sunscreen</h3><div class="rating">★★★★★</div><p>Rp 120.000</p><div class="btn-group"><button onclick="tambahKeranjang('Sunscreen',120000)">Tambah</button><button class="buy" onclick="beliSekarang('Sunscreen',120000)">Beli</button></div></div>
+  <div class="card">
+    <img src="sunscreen.jpg" alt="Sunscreen">
+    <h3>Sunscreen</h3>
+    <div class="rating">★★★★★</div>
+    <p>Rp 120.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Sunscreen',120000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Sunscreen',120000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/foundation.jpg"><h3>Foundation</h3><div class="rating">★★★★☆</div><p>Rp 200.000</p><div class="btn-group"><button onclick="tambahKeranjang('Foundation',200000)">Tambah</button><button class="buy" onclick="beliSekarang('Foundation',200000)">Beli</button></div></div>
+  <div class="card">
+    <img src="foundation.jpg" alt="Foundation">
+    <h3>Foundation</h3>
+    <div class="rating">★★★★☆</div>
+    <p>Rp 200.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Foundation',200000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Foundation',200000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/micellar.jpg"><h3>Micellar Water</h3><div class="rating">★★★★☆</div><p>Rp 95.000</p><div class="btn-group"><button onclick="tambahKeranjang('Micellar Water',95000)">Tambah</button><button class="buy" onclick="beliSekarang('Micellar Water',95000)">Beli</button></div></div>
+  <div class="card">
+    <img src="micellar.jpg" alt="Micellar Water">
+    <h3>Micellar Water</h3>
+    <div class="rating">★★★★☆</div>
+    <p>Rp 95.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Micellar Water',95000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Micellar Water',95000)">Beli</button>
+    </div>
+  </div>
 
-<div class="card"><img src="images/eyecream.jpg"><h3>Eye Cream</h3><div class="rating">★★★★★</div><p>Rp 150.000</p><div class="btn-group"><button onclick="tambahKeranjang('Eye Cream',150000)">Tambah</button><button class="buy" onclick="beliSekarang('Eye Cream',150000)">Beli</button></div></div>
+  <div class="card">
+    <img src="eyecream.jpg" alt="Eye Cream">
+    <h3>Eye Cream</h3>
+    <div class="rating">★★★★★</div>
+    <p>Rp 150.000</p>
+    <div class="btn-group">
+      <button onclick="tambahKeranjang('Eye Cream',150000)">Tambah</button>
+      <button class="buy" onclick="beliSekarang('Eye Cream',150000)">Beli</button>
+    </div>
+  </div>
 
 </div>
 
