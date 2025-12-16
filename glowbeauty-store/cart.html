@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Keranjang</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h2>🛒 Keranjang</h2>
+<div class="header-right">
+<span class="user-name">👤 <span id="userName"></span></span>
+<button class="logout-btn" onclick="logout()">Logout</button>
+<a href="index.html" class="back">← Kembali</a>
+</div>
+</header>
+
+<div class="keranjang-page">
+<ul id="daftarKeranjang"></ul>
+<h3>Total: Rp <span id="totalSpan">0</span></h3>
+
+<div class="payment">
+<label><input type="radio" name="payment"> COD</label>
+<label><input type="radio" name="payment"> Transfer</label>
+<label><input type="radio" name="payment"> E-Wallet</label>
+</div>
+
+<button class="checkout" onclick="checkout()">Checkout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

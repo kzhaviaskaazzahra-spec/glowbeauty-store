@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Status Pesanan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h2>📦 Status Pesanan</h2>
+<div class="header-right">
+<span class="user-name">👤 <span id="userName"></span></span>
+<button class="logout-btn" onclick="logout()">Logout</button>
+<a href="index.html" class="back">← Belanja Lagi</a>
+</div>
+</header>
+
+<div class="order-box">
+<ul id="orderList"></ul>
+
+<div class="order-status">
+<div class="step active">⏳ Diproses</div>
+<div class="step" id="kirim">🚚 Dikirim</div>
+<div class="step" id="selesai">📬 Selesai</div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
